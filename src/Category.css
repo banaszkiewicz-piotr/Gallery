@@ -1,0 +1,9 @@
+#Pic1, #Pic2, #Pic3 {
+    height: 200;
+    float: left;
+}
+
+.categoryChoice {
+    float: left;
+    margin: 100, 20, 100, 10;
+}
