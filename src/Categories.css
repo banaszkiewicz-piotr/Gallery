@@ -1,0 +1,11 @@
+button {
+    position: fixed;
+    top: 15%;
+    left: 7%;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: orangered;
+    background-color: transparent;
+    font-size: 22px;
+    color: orangered;
+}
