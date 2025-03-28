@@ -1,8 +1,4 @@
-img {
-    width: 100%;
-}
-
-button {
+button.close {
     position: fixed;
     top: 5%;
     left: 5%;
