@@ -5,7 +5,7 @@ import "./Category.css";
 function Nature(){
     return(
         <>
-            <button onClick={getBack}>Powrót</button>
+            <button className="back" onClick={getBack}>Powrót</button>
             <div className="categoryChoice">
                 <p>
                     <img id="Pic1" src="https://cdn.pixabay.com/photo/2025/03/13/14/00/mountain-9467826_640.jpg" alt="Góry" height="200"></img>

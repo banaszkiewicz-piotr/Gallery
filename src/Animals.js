@@ -5,7 +5,7 @@ import "./Category.css";
 function Animals(){
     return(
         <>
-            <button onClick={getBack}>Powrót</button>
+            <button className="back" onClick={getBack}>Powrót</button>
             <div className="categoryChoice">
                 <p>
                     <img id="Pic1" src="https://cdn.pixabay.com/photo/2024/03/07/10/38/simba-8618301_640.jpg" alt="Kot" height="200"></img>

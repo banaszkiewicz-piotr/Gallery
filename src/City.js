@@ -1,14 +1,15 @@
 import getBack from "./getBack";
 import "./Categories.css";
 import "./Category.css";
+import Picture from "./Picture";
 
 function City(){
     return(
         <>
-            <button onClick={getBack}>Powrót</button>
+            <button className="back" onClick={getBack}>Powrót</button>
             <div className="categoryChoice">
                 <p>
-                    <img id="Pic1" src="https://cdn.pixabay.com/photo/2025/03/09/08/26/bridge-9456745_1280.jpg" alt="Miasto" height="200"></img>
+                    <img id="Pic1" src="https://cdn.pixabay.com/photo/2025/03/09/08/26/bridge-9456745_1280.jpg" alt="Miasto" height="200" onClick={Picture("https://cdn.pixabay.com/photo/2025/03/09/08/26/bridge-9456745_1280.jpg")}></img>
                 </p>
                 <p>
                     <img id="Pic2" src="https://cdn.pixabay.com/photo/2024/09/20/01/37/al-seef-9060100_640.jpg" alt="Miasto" height="200"></img>
