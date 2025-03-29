@@ -1,5 +1,12 @@
 button.close {
-    position: fixed;
-    top: 5%;
-    left: 5%;
+    color: rgb(226, 17, 17); 
+    line-height: 1rem; 
+    font-size: 20px; 
+    padding: 1rem; 
+    cursor: pointer; 
+    position: absolute; 
+    right: 0px; 
+    top: 0px; 
+    background-color: transparent; 
+    border: none;
 }
