@@ -2,4 +2,25 @@ button.close {
     position: fixed;
     top: 5%;
     left: 5%;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: orangered;
+    background-color: transparent;
+    font-size: 22px;
+    color: orangered;
+}
+
+div.picture {
+    background-color: black;
+    opacity: 0.3;
+    overflow: visible;
+    position: absolute;
+}
+
+img.BigPicture {
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-top: 80px;
+    margin-left: 80px;
+    position: fixed;
 }
