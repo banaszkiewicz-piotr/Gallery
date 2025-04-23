@@ -30,6 +30,15 @@ function CityPic3(){
 }
 
 function City(){
+    const picture = (a) => {
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(
+            <>
+                <button className='close' onClick={getBack}>X</button>
+                <img src={a}></img>
+            </>
+        )
+    } 
     return(
         <>
             <button className="back" onClick={getBack}>Powrót</button>
